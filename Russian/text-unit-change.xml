@@ -24,7 +24,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_RELIGION_DISCIPLE</zType>
-		<Translation>{UNIT-RELIGION,6} Апостол~{UNIT-RELIGION,7} Апостола~{UNIT-RELIGION,8} Апостолу~{UNIT-RELIGION,9} Апостола~{UNIT-RELIGION,10} Апостолом~{UNIT-RELIGION,11} Апостоле~{UNIT-RELIGION,12} Апостолы~{UNIT-RELIGION,13} Апостолов~{UNIT-RELIGION,14} Апостолам~{UNIT-RELIGION,15} Апостолов~{UNIT-RELIGION,16} Апостолами~{UNIT-RELIGION,17} Апостолах</Translation>
+		<Translation>{UNIT-RELIGION,6} апостол~{UNIT-RELIGION,7} апостола~{UNIT-RELIGION,8} апостолу~{UNIT-RELIGION,9} апостола~{UNIT-RELIGION,10} апостолом~{UNIT-RELIGION,11} апостоле~{UNIT-RELIGION,12} апостолы~{UNIT-RELIGION,13} апостолов~{UNIT-RELIGION,14} апостолам~{UNIT-RELIGION,15} апостолов~{UNIT-RELIGION,16} апостолами~{UNIT-RELIGION,17} апостолах</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_MILITIA</zType>
@@ -48,7 +48,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_MACEMAN</zType>
-		<Translation>Воин с булавой~Воина с булавой~Воину с булавой~Воином с булавой~Воине с булавой~Воины с булавами~Воинов с булавами~Воинам с булавами~Воинов с булавами~Воинами с булавами~Воинах с булавами</Translation>
+		<Translation>Воин с булавой~Воина с булавой~Воину с булавой~Воина с булавой~Воином с булавой~Воине с булавой~Воины с булавами~Воинов с булавами~Воинам с булавами~Воинов с булавами~Воинами с булавами~Воинах с булавами</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_SWORDSMAN</zType>
@@ -64,11 +64,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_ARCHER</zType>
-		<Translation>Стрелок~Стрелка~Стрелку~Стрелка~Стрелком~Стрелке~Стрелки~Стрелков~Стрелкам~Стрелков~Стрелками~Стрелках</Translation>
+		<Translation>Лучник~Лучника~Лучнику~Лучника~Лучником~Лучнике~Лучники~Лучников~Лучникам~Лучников~Лучниками~Лучниках</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_LONGBOWMAN</zType>
-		<Translation>Лучник~Лучника~Лучнику~Лучника~Лучником~Лучнике~Лучники~Лучников~Лучникам~Лучников~Лучниками~Лучниках</Translation>
+		<Translation>Меткий лучник~Меткого лучника~Меткому лучнику~Меткого лучника~Метким лучником~Метком лучнике~Меткие лучники~Метких лучников~Метким лучникам~Метких лучников~Меткими лучниками~Метких лучниках</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_CROSSBOWMAN</zType>

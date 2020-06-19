@@ -189,7 +189,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_REQUIRES</zType>
-    <Translation>Требует {0_list}</Translation>
+    <Translation>Требует: {0_list}</Translation>
   </Entry>
   <!--Links-->
   <Entry>
@@ -202,7 +202,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_EFFECT_PLAYER_SOURCE_RELIGION</zType>
-    <Translation>Местная религия: {0_religion}</Translation>
+    <Translation>Государственная религия: {0_religion}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE</zType>
@@ -210,7 +210,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CONNECTED</zType>
-    <Translation><![CDATA[{0_icon}<true_1> Связан дорогой<false><end>]]></Translation>
+    <Translation><![CDATA[{0_icon}<true_1> Связан<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_FRESH_WATER</zType>
@@ -218,7 +218,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_ROAD</zType>
-    <Translation>Дорога</Translation>
+    <Translation>Дорога~Дороги~Дороге~Дорогу~Дорогой~Дороге</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_OUTSIDE_BORDERS</zType>
@@ -230,7 +230,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_DISLOYALTY</zType>
-    <Translation>Неверность</Translation>
+    <Translation>Неверность~Неверности</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_LARGEST_POPULATION</zType>
@@ -246,7 +246,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_TUTOR_GENERIC</zType>
-    <Translation>Учитель~Учителя~Учителю~Учителя~Учителем~Учителе~Учителя~Учителей~Учителям~Учителей~Учителями~Учителях</Translation>
+    <Translation>Обучать</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CITIZEN</zType>
@@ -262,15 +262,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_FAMILY_SEAT</zType>
-    <Translation>Родовое гнездо</Translation>
+    <Translation>Оплот семьи</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_FAMILY_UNITS</zType>
-    <Translation>Юниты</Translation>
+    <Translation>Отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_LEGITIMACY</zType>
-    <Translation>icon(YIELD_LEGITIMACY) Законнорожденный</Translation>
+    <Translation>icon(YIELD_LEGITIMACY) Легитимность~icon(YIELD_LEGITIMACY) Легитимности</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_GREAT_PERSON</zType>
@@ -294,15 +294,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CULTURE_LEVEL</zType>
-    <Translation>Уровень Культуры~Уровня Культуры~Уровню Культуры~Уровень Культуры~Уровнем Культуры~Уровне Культуры~Уровни Культуры~Уровней Культуры~Уровням Культуры~Уровни Культуры~Уровнями Культуры~Уровнях Культуры</Translation>
+    <Translation>Уровень культуры~Уровня культуры~Уровню культуры~Уровень культуры~Уровнем культуры~Уровне культуры~Уровни культуры~Уровней культуры~Уровням культуры~Уровни культуры~Уровнями культуры~Уровнях культуры</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_UNIT_CYCLE</zType>
-    <Translation>{0_unitCycle} Юниты</Translation>
+    <Translation>{0_unitCycle} отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CAPITAL</zType>
-    <Translation><![CDATA[{0_icon}<true_1> Столица<false><end>]]></Translation>
+    <Translation><![CDATA[{0_icon}<true_1> Столица<false><end>~{0_icon}<true_1> Столицы<false><end>~{0_icon}<true_1> Столице<false><end>~{0_icon}<true_1> Столицу<false><end>~{0_icon}<true_1> Столицей<false><end>~{0_icon}<true_1> Столице<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_TECH_PROGRESS</zType>
@@ -310,7 +310,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_BUILD_QUEUE_PROJECT</zType>
-    <Translation><![CDATA[{0_project}<true_1> (На повторе)<false><end>]]></Translation>
+    <Translation><![CDATA[{0_project}<true_1> (Повторяется)<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_BUILD_QUEUE_PROJECT_COMPLETE</zType>
@@ -326,11 +326,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_AMBITIONS_FINISHED</zType>
-    <Translation><![CDATA[<singular_0>Намерение<plural>Намерения<plural2>Намерений<end> исполнено]]></Translation>
+    <Translation><![CDATA[<singular_0>Амбиция<plural>Амбиции<plural2>Амбиций<end> завершено]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_AMBITIONS</zType>
-    <Translation>Намерения</Translation>
+    <Translation>Амбиции</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_BARBARIAN_SITES</zType>
@@ -338,11 +338,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_BARBARIAN_UNITS</zType>
-    <Translation>Особые юниты</Translation>
+    <Translation>Особые отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CHARACTER_TENDENCIES</zType>
-    <Translation>Характер</Translation>
+    <Translation>Склонности</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CITY_IMPROVEMENTS</zType>
@@ -354,7 +354,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_CONNECTED_CITIES</zType>
-    <Translation>Города, связанные дорогами</Translation>
+    <Translation>Города, связанные со столицей</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_ENEMIES</zType>
@@ -378,7 +378,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_RIVER</zType>
-    <Translation>Река~Реки~Реке~Реке~Реку~Рекой~Реке</Translation>
+    <Translation>Река~Реки~Реке~Реку~Рекой~Реке</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_ROLE_SPOUSE</zType>
@@ -398,7 +398,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_STATE_RELIGION</zType>
-    <Translation>Местная религия</Translation>
+    <Translation>Государственная религия</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_TILE</zType>
@@ -414,7 +414,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_UNIT_CONSUMPTION</zType>
-    <Translation>Юниты</Translation>
+    <Translation>Отряды</Translation>
   </Entry>
   <!--Event Prereqs-->
   <Entry>
@@ -495,7 +495,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CAN_ACT_CONSUMES</zType>
-    <Translation>Потребляет {0,3_yield}</Translation>
+    <Translation>Содержание: {0_yield}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CAN_ACT_OTHER_TURN</zType>
@@ -543,7 +543,7 @@
   <!--Turns Text-->
   <Entry>
     <zType>TEXT_HELPTEXT_TURNS_TEXT</zType>
-    <Translation><![CDATA[<true_1>({0_number} <singular_0>г<plural>г<plural2>л<end>)<false>{0_number}<singular_0>г<plural>г<plural2>л<end><end>]]></Translation>
+    <Translation><![CDATA[<true_1>({0_number}<singular_0>г<plural>г<plural2>л<end>)<false>{0_number}<singular_0>г<plural>г<plural2>л<end><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN</zType>
@@ -656,7 +656,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_IDLE_OVERLAY</zType>
-    <Translation><![CDATA[Показать свободные юниты<br>[Shift+Click] - закрепить слой<br><true_0>{0_presskey}<false><end>]]></Translation>
+    <Translation><![CDATA[Показать свободные отряды<br>[Shift+Click] - закрепить слой<br><true_0>{0_presskey}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TOGGLE_NETWORK_OVERLAY</zType>
@@ -704,7 +704,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_NEXT_UNIT</zType>
-    <Translation><![CDATA[Перейти к следующему юниту ({0_unit})<true_1> {1_presskey}<false><end><br><TEXT_HOTKEY_RIGHT_CLICK><true_2> или {2_presskey}<false><end> Пропустить и перейти к следующему юниту ({0_unit})]]></Translation>
+    <Translation><![CDATA[Перейти к следующему отряду ({0_unit})<true_1> {1_presskey}<false><end><br><TEXT_HOTKEY_RIGHT_CLICK><true_2> или {2_presskey}<false><end> Пропустить и перейти к следующему отряду ({0_unit})]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_CHOOSE_CITY_PRODUCTION</zType>
@@ -728,19 +728,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD</zType>
-    <Translation><![CDATA[Перейти к свободному мирному юниту<true_0> {0_presskey}<false><end>]]></Translation>
+    <Translation><![CDATA[Перейти к свободному мирному отряду<true_0> {0_presskey}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_BUILD_KEYS</zType>
-    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена юнитов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить мирные юниты<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
+    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена отрядов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить мирные отряды<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY</zType>
-    <Translation><![CDATA[Перейти к свободному военному юниту<true_0> {0_presskey}<false><end>]]></Translation>
+    <Translation><![CDATA[Перейти к свободному военному отряду<true_0> {0_presskey}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_MILITARY_KEYS</zType>
-    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена юнитов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить военные юниты<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
+    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена отрядов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить военные отряды<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION</zType>
@@ -748,11 +748,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_EXPLORATION_KEYS</zType>
-    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена юнитов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить разведчиков и корабли<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
+    <Translation><![CDATA[<TEXT_HOTKEY_RIGHT_CLICK> - смена отрядов в обратном порядке<br><TEXT_HOTKEY_CTRL_CLICK> - пропустить разведчиков и корабли<true_0><br><TEXT_HOTKEY_CTRL_SHIFT_CLICK> - установить приоритет<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES</zType>
-    <Translation><![CDATA[Перейти к свободному городу<true_0> {0_presskey}<false><end>]]></Translation>
+    <Translation><![CDATA[Перейти к городу без производства<true_0> {0_presskey}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_IDLE_CITIES_KEYS</zType>
@@ -772,7 +772,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_CYCLE_NEXT_CITIES</zType>
-    <Translation><![CDATA[Новый город<true_0> {0_presskey}<false><end>]]></Translation>
+    <Translation><![CDATA[Следующий город<true_0> {0_presskey}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TURN_TIMER</zType>
@@ -844,7 +844,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_VICTORY_AMBITIONS</zType>
-    <Translation>Исполненные намерения: {0}/{1}</Translation>
+    <Translation>Завершенные амбиции: {0}/{1}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_VICTORY_GOAL_FINISHED</zType>
@@ -860,11 +860,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_CURRENT</zType>
-    <Translation><![CDATA[Местная: {0_religion}<true_1> ({1_city})<false><end>]]></Translation>
+    <Translation><![CDATA[Государственная: {0_religion}<true_1> ({1_city})<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_STATE_RELIGION_ITEM</zType>
-    <Translation><![CDATA[{0_religion}<true_1> ({1_city})<false><end><true_2> (Местная)<false><end>]]></Translation>
+    <Translation><![CDATA[{0_religion}<true_1> ({1_city})<false><end><true_2> (государственная)<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_SEND</zType>
@@ -968,7 +968,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL</zType>
-    <Translation>Выбрать Генерала для возглавления юнита</Translation>
+    <Translation>Выбрать Генерала для возглавления отряда</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_SAME_FAMILY</zType>
@@ -984,7 +984,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ADD_GENERAL_MIN_UNIT_LEVEL</zType>
-    <Translation>Юнит должен быть {0} уровня</Translation>
+    <Translation>Отряд должен быть {0} уровня</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL</zType>
@@ -1044,7 +1044,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_ARCHETYPE</zType>
-    <Translation>{0_character} получет {1,3_trait}</Translation>
+    <Translation>{0_character} становится {1,,4_trait}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_FUTURE_EVENTS</zType>
@@ -1056,7 +1056,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_HEAL</zType>
-    <Translation>Вылечить юнит: {0_amount} HP</Translation>
+    <Translation>Вылечить отряд: {0_amount} HP</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_HEAL_CURRENT_HP</zType>
@@ -1064,7 +1064,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_HEAL_IDLE_UNIT</zType>
-    <Translation>({0,6_idle} юниты лечат {1_amount} HP каждый год.)</Translation>
+    <Translation>({0,6_idle} отряды лечат {1_amount} HP каждый год.)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_HEAL_NEUTRAL_TERRITORY</zType>
@@ -1076,11 +1076,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_FORTIFY</zType>
-    <Translation><![CDATA[Укрепить юнит<br>Бонус к защите: {0_amount} в год (до {1_max}%)]]></Translation>
+    <Translation><![CDATA[Укрепить отряд<br>Бонус к защите: {0_amount} в год (до {1_max}%)]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TESTUDO</zType>
-    <Translation><![CDATA[Боевой порядок<br>Бонус против дальнобойных юнитов: {0_amount} в год (до {1_max}%)]]></Translation>
+    <Translation><![CDATA[Боевой порядок<br>Бонус против дальнобойных отрядов: {0_amount} в год (до {1_max}%)]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_MARCH</zType>
@@ -1108,7 +1108,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ANCHOR_HELP</zType>
-    <Translation>Бросив якорь, позволяет сухопытным юнитам перемещаться по воде</Translation>
+    <Translation>Бросив якорь, позволяет сухопытным отрядам перемещаться по воде</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_PILLAGE</zType>
@@ -1120,7 +1120,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_WAKE</zType>
-    <Translation>Пробудить юнит</Translation>
+    <Translation>Пробудить отряд</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_PASS</zType>
@@ -1136,15 +1136,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_SENTRY</zType>
-    <Translation>Пробудиться при появлении вражеского юнита в {0_value} клетках</Translation>
+    <Translation>Пробудиться при появлении вражеского отряда в {0_value} клетках</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LOCK</zType>
-    <Translation>Заблокировать юнит (только вы сможете его использовать)</Translation>
+    <Translation>Заблокировать отряд (только вы сможете его использовать)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_DISBAND</zType>
-    <Translation>Распустить юнит</Translation>
+    <Translation>Распустить отряд</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_REPAIR</zType>
@@ -1156,7 +1156,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_FAMILY_SEAT</zType>
-    <Translation>Основать родовое гнездо {0_family}</Translation>
+    <Translation>Основать оплот семьи {0_family}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY</zType>
@@ -1180,7 +1180,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_SKIP_SEAT_BONUS</zType>
-    <Translation>Упущенный бонус родового гнезда: </Translation>
+    <Translation>Упущенный бонус оплота семьи: </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_FOUND_CITY_MAX_FAMILIES</zType>
@@ -1216,7 +1216,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ADD</zType>
-    <Translation>Добавить {0_link}</Translation>
+    <Translation>Добавить {0,3_link}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_RAISE</zType>
@@ -1228,7 +1228,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ADD_REQUIRES</zType>
-    <Translation>Требует {0_list}</Translation>
+    <Translation>Требует: {0_list}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_COSTS</zType>
@@ -1288,7 +1288,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_COLONIZE_TILE_REQUIRES</zType>
-    <Translation>Требует {0_list}</Translation>
+    <Translation>Требует: {0_list}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_TRADE_ROUTE</zType>
@@ -1320,7 +1320,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_PROMOTE_LEVEL</zType>
-    <Translation>Юниту нужно {0_amount} XP ({1_xp}/{2_xpMax})</Translation>
+    <Translation>Отряду нужно {0_amount} XP ({1_xp}/{2_xpMax})</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_PROMOTE_COST</zType>
@@ -1328,7 +1328,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_UPGRADE</zType>
-    <Translation>Улучшить до {0,1_unit}</Translation>
+    <Translation>Модернизация до {0,1_unit}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_UPGRADE_COSTS</zType>
@@ -1352,7 +1352,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE</zType>
-    <Translation><![CDATA[Ускоряет восстановление <singular_0>ближайшего юнита<plural>ближайших {0_number} юнитов<plural2>ближайших {0_number} юнитов<end> и дает {1,3_yield} за каждого]]></Translation>
+    <Translation><![CDATA[Ускоряет восстановление <singular_0>ближайшего отряда<plural>ближайших {0_number} отрядов<plural2>ближайших {0_number} отрядов<end> и дает {1,3_yield} за каждого]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_COSTS</zType>
@@ -1376,7 +1376,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION</zType>
-    <Translation>Требуется наличие местной религии</Translation>
+    <Translation>Требуется наличие государственной религии</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION</zType>
@@ -1384,7 +1384,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_AS_STATE_RELIGION</zType>
-    <Translation>Местная религия: </Translation>
+    <Translation>Государственная религия: </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_EFFECT_YIELDS</zType>
@@ -1456,7 +1456,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GENERAL_INJURY</zType>
-    <Translation>У генералов есть небольшой шанс ({0_number}%) получить ранение при атаке на юнит.</Translation>
+    <Translation>У генералов есть небольшой шанс ({0_number}%) получить ранение при атаке на отряд.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_UNIT_ATTACKED</zType>
@@ -1472,7 +1472,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_UNIT_SEEN</zType>
-    <Translation>Вражеский юнит {0_unit} замечен: {1_tilePosition}</Translation>
+    <Translation>Замечен вражеский отряд {0_unit}: {1_tilePosition}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_CITY_ATTACKED</zType>
@@ -1568,12 +1568,12 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CONSUMES_UNIT</zType>
-    <Translation>Расходует юнит</Translation>
+    <Translation>Расходует отряд</Translation>
   </Entry>
   <!--Link Help-->
   <Entry>
     <zType>TEXT_HELPTEXT_HELP_ALLIANCE_BARB</zType>
-    <Translation><![CDATA[Можно перемещаться и атаковать с юнитами этого племени.<br>Можно основывать города рядом с их поселениями.<br>Союзное племя разделит ваши двпломатические отношения с другими племенами.<br>Союз возможен только с одним племенем.<br>Он продлится до конца правления действующего лидера.]]></Translation>
+    <Translation><![CDATA[Можно перемещаться и атаковать с отрядами этого племени.<br>Можно основывать города рядом с их поселениями.<br>Союзное племя разделит ваши двпломатические отношения с другими племенами.<br>Союз возможен только с одним племенем.<br>Он продлится до конца правления действующего лидера.]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_HELP_ALLIANCE_PLAYER</zType>
@@ -1597,16 +1597,16 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_UNITS</zType>
-    <Translation>Особые юниты:</Translation>
+    <Translation>Особые отряды:</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_BARBARIAN_INVADE</zType>
-    <Translation>Племя будет отправлять юниты, чтобы грабить ваши города.</Translation>
+    <Translation>Племя будет отправлять отряды, чтобы грабить ваши города.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_CITY_CAPTURE</zType>
     <Translation><![CDATA[{0_player} захватит {1,3_city} через {2_turns} <singular_2>год<plural>года<plural2>лет<end>
-(В городе должен быть военный юнит.)]]></Translation>
+(В городе должен быть военный отряд.)]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_X</zType>
@@ -1626,7 +1626,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_CITY_FAMILY_MILITARY</zType>
-    <Translation>{0_yield}: Защита юнитами семьи</Translation>
+    <Translation>{0_yield}: Защита отрядами семьи</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_CITY_MILITARY</zType>
@@ -1698,23 +1698,23 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION</zType>
-    <Translation>{0_value} мнение {1,1_family}</Translation>
+    <Translation>{0_value} к мнению семьи {1_family}</Translation>
   </Entry>
   <!-- The whitespace here is important. Any added newlines or tabs will show up in the tooltip -->
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_BARBARIAN</zType>
     <Translation>
-Вы не сможете атаковать друг друга.
+Вы не можете атаковать друг друга.
 Мир будет длиться до конца правления действующего лидера.
-Их юниты станут менее склонны к войне и грабежам.
-Они смогут перемещаться и лечиться на вашей территории.</Translation>
+Их отряды не склонны к войне и грабежам.
+Они могут перемещаться и лечиться на вашей территории.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_PLAYER</zType>
     <Translation>
-Вы не сможете атаковать друг друга.
-Они станут менее склонны объявлять вам войну.
-Вы сможете перемещаться и лечиться на территории друг друга.</Translation>
+Вы не можете атаковать друг друга.
+Они не хотят воевать с вами.
+Вы можете перемещаться и лечиться на территории друг друга.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_TRUCE</zType>
@@ -1742,7 +1742,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_MILITARY_ALL</zType>
-    <Translation>Военные юниты</Translation>
+    <Translation>Военные отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL</zType>
@@ -1754,7 +1754,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_FAMILY_UNITS</zType>
-    <Translation>Юниты семьи {0_family}:</Translation>
+    <Translation>Отряды семьи {0_family}:</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_FRESH_WATER</zType>
@@ -1782,7 +1782,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_GENERAL</zType>
-    <Translation>Генерал улучшает характеристики юнитов (требуется уровень 2).</Translation>
+    <Translation>Генерал улучшает характеристики отрядов (требуется уровень 2).</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_GOVERNOR</zType>
@@ -1790,15 +1790,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_IDLE</zType>
-    <Translation>Свободные юниты можно перемещать до атаки, повышения, улучшения и т.д.</Translation>
+    <Translation>Свободные отряды можно перемещать до атаки, повышения, улучшения и т.д.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_IGNORES_ZOC</zType>
-    <Translation>Игнорирует link(CONCEPT_ZOC) вражеских юнитов.</Translation>
+    <Translation>Игнорирует link(CONCEPT_ZOC) вражеских отрядов.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY</zType>
-    <Translation>Удерживать [{0_key}], чтобы скрыть все постройки.</Translation>
+    <Translation>Удерживать [{0_key}], чтобы не отображать постройки.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_JOIN_COURT</zType>
@@ -1806,11 +1806,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_LAUNCH_OFFENSIVE</zType>
-    <Translation><![CDATA[Ускоряет восстановление <singular_0>ближайшего юнита<plural>{0} ближайших юнитов<plural2>{0} ближайших юнитов<end>]]></Translation>
+    <Translation><![CDATA[Ускоряет восстановление <singular_0>ближайшего отряда<plural>{0} ближайших отрядов<plural2>{0} ближайших отрядов<end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS</zType>
-    <Translation>{0_value}: Мнение семьи</Translation>
+    <Translation>{0_value}: мнение семьи</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_LOCATION</zType>
@@ -1846,7 +1846,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_NEXT_UNIT</zType>
-    <Translation><![CDATA[Создаст новый юнит через {0} <singular_0>год<plural>года<plural2>лет<end>]]></Translation>
+    <Translation><![CDATA[Создаст новый отряд через {0} <singular_0>год<plural>года<plural2>лет<end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_PILLAGED</zType>
@@ -1858,11 +1858,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_RAISE_IMPROVEMENTS</zType>
-    <Translation>Улучшить постройку (например, link(IMPROVEMENT_THEATER_1) до link(IMPROVEMENT_THEATER_2,1)).</Translation>
+    <Translation>Улучшить постройку (например, link(IMPROVEMENT_THEATER_1,3) до link(IMPROVEMENT_THEATER_2,1)).</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_REBEL</zType>
-    <Translation>Появится мятежник и начнет атаковать юниты и города.</Translation>
+    <Translation>Появится мятежник и начнет атаковать отряды и города.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES</zType>
@@ -1886,7 +1886,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_ROUT</zType>
-    <Translation>При убийстве юнита продвигается вперед и может атаковать снова</Translation>
+    <Translation>При убийстве отряда продвигается вперед и может атаковать снова</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SELECT_BARBARIAN</zType>
@@ -1906,7 +1906,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SELECT_UNIT</zType>
-    <Translation>Кликните для выбора юнита</Translation>
+    <Translation>Кликните для выбора отряда</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SPECIALIST_CLASS_TYPES</zType>
@@ -1914,7 +1914,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_SETTLEMENT</zType>
-    <Translation>Для поселения доступны клетки города и варварские лагеря</Translation>
+    <Translation>Для поселения доступны городища и варварские лагеря</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_STRENGTH</zType>
@@ -1954,19 +1954,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_TUTORS</zType>
-    <Translation><![CDATA[Улучшит характеристики королевских отпрысков (для детей возрастом от {0_age})<br>Ученики:]]></Translation>
+    <Translation><![CDATA[Улучшит характеристики королевских отпрысков (для детей возрастом от {0_age} <singular_0>года<plural>лет<plural2>лет<end>)<br>Ученики: ]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CYCLE_KEY</zType>
-    <Translation>Нажать [{0_key}] для смены юнитов.</Translation>
+    <Translation>Нажать [{0_key}] для смены отрядов.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CENTER_KEY</zType>
-    <Translation>Нажать [{0_key}], чтобы увидеть юнит.</Translation>
+    <Translation>Нажать [{0_key}], чтобы увидеть отряд.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UNIT_HIDE_KEY</zType>
-    <Translation>Удерживать [{0_key}], чтобы скрыть все юниты.</Translation>
+    <Translation>Удерживать [{0_key}], чтобы не отображать отряды.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CONSUMES</zType>
@@ -1982,7 +1982,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UNIT_CYCLE</zType>
-    <Translation>{0_unitCycle} юнитов:</Translation>
+    <Translation>{0_unitCycle} отрядов:</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_UPKEEP</zType>
@@ -1998,7 +1998,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_URBAN_RURAL_POPULATION</zType>
-    <Translation>Каждая городская клетка обеспечивает {0_value} {1,1_populationEffect}</Translation>
+    <Translation>Каждая городская клетка приносит {0_value} ед. {1,1_populationEffect}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_URBAN_ATTACK_INTO</zType>
@@ -2014,7 +2014,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_VEGETATION_HOTKEY</zType>
-    <Translation>Удерживать [{0_key}], чтобы скрыть все изображения {1,1_vegetation}.</Translation>
+    <Translation>Удерживать [{0_key}], чтобы не отображать {1_vegetation}.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_VICTORY</zType>
@@ -2022,7 +2022,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_LINK_HELP_ZOC</zType>
-    <Translation><![CDATA[Зона контроля захватывает соседние клетки юнита (кроме другого берега {0,1_riverLink}) и мешает вражеским юнитам двигаться от одной клетки ЗК к другой.<br>Удерживать [{1_key}], чтобы увидеть ЗК юнита.]]></Translation>
+    <Translation><![CDATA[Зона контроля охватывает соседние клетки отряда (кроме другого берега {0,1_riverLink}) и мешает вражеским отрядам двигаться от одной клетки ЗК к другой.<br>Удерживать [{1_key}], чтобы увидеть ЗК отряда.]]></Translation>
   </Entry>
   <!--Yield Net Help-->
   <Entry>
@@ -2080,7 +2080,7 @@
   <!--Improvement Requires Help-->
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_PREFIX</zType>
-    <Translation>Требует {0}</Translation>
+    <Translation>Требует: {0}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_WARN_HARVESTED</zType>
@@ -2099,11 +2099,11 @@
     <Translation>Требуется Священный город</Translation>
   </Entry>
   <Entry>
-    <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_COAST</zType>
+    <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_COAST_LAND</zType>
     <Translation>Побережье</Translation>
   </Entry>
   <Entry>
-    <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_WATER_COAST</zType>
+    <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_COAST_WATER</zType>
     <Translation>Прибрежные воды</Translation>
   </Entry>
   <Entry>
@@ -2164,7 +2164,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_CULTURE_IMPROVEMENT_COUNT</zType>
-    <Translation><![CDATA[{0_maxValue}<singular_0>{1,0_improvementClass}<plural>{1,1_improvementClass}<plural2>{1,7_improvementClass}<end> за {2,3_cultureLevel}]]></Translation>
+    <Translation><![CDATA[{0_maxValue}<singular_0> {1,0_improvementClass}<plural>{1,1_improvementClass}<plural2>{1,7_improvementClass}<end> за {2,3_cultureLevel}]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_MAX_LIST</zType>
@@ -2212,10 +2212,6 @@
     <Translation><![CDATA[<singular_0>Бонусная карта<plural>Бонусные карты<plural2>Бонусные карты<end>: {0_list}]]></Translation>
   </Entry>
   <!--Unit Type Help-->
-  <Entry>
-    <zType>TEXT_HELPTEXT_UNIT_TYPE_HP</zType>
-    <Translation>HP: {0}/{1}</Translation>
-  </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_HP_MAX</zType>
     <Translation>HP: {0}</Translation>
@@ -2278,7 +2274,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_TRADE_ROUTE</zType>
-    <Translation>Может сопровождать торговый караван</Translation>
+    <Translation>Может создать торговый маршрут</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_CAN_ESTABLISH_THEOLOGY</zType>
@@ -2322,7 +2318,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_CONSUMES</zType>
-    <Translation>Потребляет {0,3_list}</Translation>
+    <Translation>Содержание: {0_list}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_NO_TRAIN_OR_PROMOTE</zType>
@@ -2338,7 +2334,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_TO</zType>
-    <Translation>Улучшается до {0,1_list}</Translation>
+    <Translation>Модернизация до {0,1_list}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_TECH</zType>
@@ -2350,7 +2346,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_UNIT_TYPE_REQUIRES_STATE_RELIGION</zType>
-    <Translation>Местная религия</Translation>
+    <Translation>Государственная религия</Translation>
   </Entry>
   <!--Improvement Set Help-->
   <Entry>
@@ -2413,7 +2409,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_FIGHT_FROM</zType>
-    <Translation>Из {0_tileLink}: {1_value}</Translation>
+    <Translation>Атака из {0_tileLink}: {1_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_DAMAGED</zType>
@@ -2429,11 +2425,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_SAME_UNIT_ADJACENT</zType>
-    <Translation>Соседние юниты того же типа: {0_value}</Translation>
+    <Translation>Соседние отряды того же типа: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_DEFENSE_SAME_UNIT_ADJACENT</zType>
-    <Translation>Соседние юниты того же типа: {0_value}</Translation>
+    <Translation>Соседние отряды того же типа: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_EXTRA</zType>
@@ -2453,7 +2449,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_CRITICAL_IMMUNE</zType>
-    <Translation>Невосприимчив к link(CONCEPT_CRITICAL_HIT)</Translation>
+    <Translation>Невосприимчив к link(CONCEPT_CRITICAL_HIT,2)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_NEUTRAL</zType>
@@ -2465,7 +2461,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_NO_ROAD_COOLDOWN</zType>
-    <Translation>Добавляет несколько дорог в год</Translation>
+    <Translation>Могут строить несколько дорог в год</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_UNIT_TRAIT</zType>
@@ -2498,19 +2494,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NEW_UNIT_XP</zType>
-    <Translation>{0_value} XP новым юнитам</Translation>
+    <Translation>{0_value} XP новым отрядам</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NEW_UNIT_LEVEL</zType>
-    <Translation><![CDATA[{0_value} <singular_0>Уровень<plural>Уровня<plural2>Уровней<end> новым юнитам]]></Translation>
+    <Translation><![CDATA[{0_value} <singular_0>Уровень<plural>Уровня<plural2>Уровней<end> новым отрядам]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_HEAL</zType>
-    <Translation>{0_value} HP/год {1,8_idle} юнитам</Translation>
+    <Translation>{0_value} HP/год {1,8_idle} отрядам</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_RANGE</zType>
-    <Translation>{0_value} - дальность юнита</Translation>
+    <Translation>{0_value} - дальность отряда</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_CITY_STRENGTH</zType>
@@ -2518,23 +2514,23 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_RANDOM_PROMOTIONS</zType>
-    <Translation><![CDATA[{0_value} <singular_0>Случайное повышение<plural>Случайных повышения<plural2>Случайных повышений<end> новым юнитам]]></Translation>
+    <Translation><![CDATA[{0_value} <singular_0>cлучайное повышение<plural>cлучайных повышения<plural2>cлучайных повышений<end> новым отрядам]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_IMPROVEMENT_COST</zType>
-    <Translation>{0_value} - стоимость постройки</Translation>
+    <Translation>{0_value} стоимости постройки</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_SPECIALIST_COST</zType>
-    <Translation>{0_value} - стоимость специалиста</Translation>
+    <Translation>{0_value} стоимости специалиста</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_RURAL_SPECIALIST_TRAIN_TIME</zType>
-    <Translation>{0_value} к времени обучения {1,1_specialist}</Translation>
+    <Translation>{0_value} времени обучения {1,1_specialist}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_SPECIALIST_COST</zType>
-    <Translation>{0_value} - стоимость {1,1_specialist}</Translation>
+    <Translation>{0_value} стоимости {1,1_specialist}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_SPECIALIST_TRAIN_TIME</zType>
@@ -2542,7 +2538,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_DISCIPLE_TRAIN_TIME</zType>
-    <Translation>{0_value} - время создания апостола </Translation>
+    <Translation>{0_value} времени создания апостола </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT</zType>
@@ -2558,7 +2554,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_REBEL_PROBABILITY</zType>
-    <Translation>{0_value} шанс/год появления {1,7_rebel}</Translation>
+    <Translation>{0_value} шанс/год появления {1,2_rebel}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADDS_LUXURY</zType>
@@ -2582,7 +2578,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_POPULATION</zType>
-    <Translation>Можно ускорить производство за Жителей</Translation>
+    <Translation>Можно ускорить производство за жителей</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_ORDERS</zType>
@@ -2594,11 +2590,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ALWAYS_CONNECTED</zType>
-    <Translation>Города всегда {0_connectedLink}</Translation>
+    <Translation>Города всегда {0_connectedLink} со столицей</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_STATE_RELIGION_IMPROVEMENTS</zType>
-    <Translation>Можно строить сооружения местной религии</Translation>
+    <Translation>Можно строить сооружения государственной религии</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_COST_MODIFIER</zType>
@@ -2606,11 +2602,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIN_MODIFIER</zType>
-    <Translation>{0_value} времени обучения за {1,7_unit}</Translation>
+    <Translation>{0_value} времени обучения {1,1_unit}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIT_XP</zType>
-    <Translation>{0_value} XP за новых {1,2_unitTrait}</Translation>
+    <Translation>{0_value} XP за новые {1,4_unitTrait}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIT_LEVEL</zType>
@@ -2630,7 +2626,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NO_IMPROVEMENT_CLASS_MAX</zType>
-    <Translation>Можно бесконечно строить {0_improvementClass,2}</Translation>
+    <Translation>Можно бесконечно строить {0_improvementClass,3}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_CIVICS</zType>
@@ -2646,7 +2642,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_POPULATION</zType>
-    <Translation>Можно ускорить производство {0,1_build} за Жителей</Translation>
+    <Translation>Можно ускорить производство {0,1_build} за жителей</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_ORDERS</zType>
@@ -2654,7 +2650,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NEW_UNITS_WITH</zType>
-    <Translation>Новые юниты начинают с {0,4_link}</Translation>
+    <Translation>Новые отряды начинают с {0,4_link}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIT_FREE_PROMOTIONS</zType>
@@ -2662,7 +2658,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_FREE_UNIT_EFFECT_CITY</zType>
-    <Translation>Можно строить юниты, которые требуют </Translation>
+    <Translation>Можно строить отряды, которые требуют </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNLOCKS_PROJECT</zType>
@@ -2687,7 +2683,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_MILITARY_IN_CITY</zType>
-    <Translation><![CDATA[{0_yield} за военный юнит на территории<true_1> ({1_cityYield})<false><end>]]></Translation>
+    <Translation><![CDATA[{0_yield} за военный отряд на территории<true_1> ({1_cityYield})<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_YIELD_RATE_PER_SPECIALIST</zType>
@@ -2715,7 +2711,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD</zType>
-    <Translation>Продукция {0,7_improvementList}: {1_value}</Translation>
+    <Translation>{1_value} продукции с {0,7_improvementList}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_RIVER_MODIFIER</zType>
@@ -2723,7 +2719,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_CLASS_MODIFIER_YIELD</zType>
-    <Translation>Продукция {0,7_improvementClassList}: {1_value}</Translation>
+    <Translation>{1_value} продукции с {0,7_improvementClassList}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_CLASS_YIELD</zType>
@@ -2740,11 +2736,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_BARBARIAN_UNITS</zType>
-    <Translation>Производит юниты {0,7_barbarianAdjective}</Translation>
+    <Translation>Производит отряды {0,7_barbarianAdjective}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_GENERIC_BARBARIAN_UNITS</zType>
-    <Translation>Создает варварские юниты</Translation>
+    <Translation>Создает варварские отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS</zType>
@@ -2760,11 +2756,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_HEALS_UNIT</zType>
-    <Translation>Излечивает {0_value} HP {1,8_idle} юнитам</Translation>
+    <Translation>Излечивает {0_value} HP {1,8_idle} отрядам</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_LEGITIMACY</zType>
-    <Translation>{0_value} Legitimacyicon(YIELD_LEGITIMACY)</Translation>
+    <Translation>{0_value} Легитимность icon(YIELD_LEGITIMACY)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT</zType>
@@ -2776,15 +2772,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_ENABLES</zType>
-    <Translation>Позволяет {0_link}</Translation>
+    <Translation>Дает доступ к: {0,2_link}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING</zType>
-    <Translation>{0_urban} здание</Translation>
+    <Translation>{0,7_urban} здание</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING_ANYWHERE</zType>
-    <Translation> (Игнорирует требование соседства)</Translation>
+    <Translation> (игнорирует требование соседства)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_SPREADS_BORDERS</zType>
@@ -2812,7 +2808,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_UNLOCKS_UNIT</zType>
-    <Translation>Открывает {0_unit}</Translation>
+    <Translation>Открывает {0,3_unit}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_CREATES_UNITS</zType>
@@ -2828,16 +2824,16 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_IMPROVEMENT_HELP_BUILT_BY_RELIGIOUS_UNITS</zType>
-    <Translation>Построено религиозными юнитами</Translation>
+    <Translation>Создается представителями религии</Translation>
   </Entry>
   <!--City Connected Help-->
   <Entry>
     <zType>TEXT_HELPTEXT_CITY_CONNECTED</zType>
-    <Translation><![CDATA[Город связан дорогой со {0,4_capital}.<br>Эффекты:]]></Translation>
+    <Translation><![CDATA[Город связан со {0,4_capital}.<br>Эффекты: ]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CITY_CONNECTED_HOTKEY</zType>
-    <Translation>Удерживать [{0_key}], чтобы увидеть клетки, соединенные со {1,4_capital}.</Translation>
+    <Translation>Удерживать [{0_key}], чтобы увидеть клетки, связанные с {1,4_capital}.</Translation>
   </Entry>
   <!--City Current Citizens Help-->
   <Entry>
@@ -2871,7 +2867,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_STATE_RELIGION_CITIES_EFFECT</zType>
-    <Translation>[Города местной религии] </Translation>
+    <Translation>[Города государственной религии] </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAPITAL_EFFECT</zType>
@@ -2879,7 +2875,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_ALL_UNITS_EFFECT</zType>
-    <Translation>[Все юниты] </Translation>
+    <Translation>[Все отряды] </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_BONUS</zType>
@@ -2899,11 +2895,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_IDLE_UNIT_XP</zType>
-    <Translation>{0_value} XP/год за {1,9_idle} юниты</Translation>
+    <Translation>{0_value} XP/год за {1,9_idle} отряды</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_XP_COMBAT_MODIFIER</zType>
-    <Translation>{0_value} XP за все юниты о время боя</Translation>
+    <Translation>{0_value} XP за все отряды о время боя</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HARVEST_MODIFIER</zType>
@@ -2911,7 +2907,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CONSUMPTION_MODIFIER</zType>
-    <Translation>Содержание юнитов {0_value}</Translation>
+    <Translation>Содержание отрядов {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WONDER_MODIFIER</zType>
@@ -2923,7 +2919,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_SWITCH_LAW_MODIFIER</zType>
-    <Translation>Стоимость смены законов: {0_value}</Translation>
+    <Translation>Стоимость смены законов {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_TRAINING_MODIFIER</zType>
@@ -2935,15 +2931,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_FATIGUE_LIMIT_CHANGE</zType>
-    <Translation>{0_value} - выносливость</Translation>
+    <Translation>{0_value} выносливость</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_REVEAL_CHANGE</zType>
-    <Translation>{0_value} - дальность обзора</Translation>
+    <Translation>{0_value} дальность обзора</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_TECH_AVAILABLE_CHANGE</zType>
-    <Translation>{0_value} - количество карт технологий</Translation>
+    <Translation><![CDATA[{0_value} <singular_0>карта<plural>карты<plural2>карт<end> технологий]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_LEADER_OPINION_CHANGE</zType>
@@ -2959,11 +2955,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_ADD_ROAD</zType>
-    <Translation>Может добавить {0_road}</Translation>
+    <Translation>Может добавить {0,3_road}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_ADD_URBAN</zType>
-    <Translation>Может добавить {0_urban} клетки</Translation>
+    <Translation>Может добавить {0_urban}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_RAISE_IMPROVEMENT</zType>
@@ -2983,7 +2979,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_MULTIPLER_WORKERS</zType>
-    <Translation>Несколько рабочих могут создавать постройки</Translation>
+    <Translation>Одной постройкой может заниматься несколько рабочих</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_BUY_TILES</zType>
@@ -2999,7 +2995,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_OUTSIDE_UNIT_CONSUMPTION</zType>
-    <Translation>{0_outsideBorders} юниты не требуют дополнительнгого содержания</Translation>
+    <Translation>{0_outsideBorders} отряды не требуют дополнительнгого содержания</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_PURGE_RELIGIONS</zType>
@@ -3015,11 +3011,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_LEGITIMACY_ORDERS</zType>
-    <Translation>Использует Legitimacyicon(YIELD_LEGITIMACY) для покупки icon(YIELD_ORDERS) приказов</Translation>
+    <Translation>Использует легитимность icon(YIELD_LEGITIMACY) для покупки icon(YIELD_ORDERS) приказов</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNIT_KILL_YIELD</zType>
-    <Translation>{0_yield} за убитого юнита</Translation>
+    <Translation>{0_yield} за убийство отряда</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WAR_YIELD</zType>
@@ -3056,7 +3052,7 @@
   <!--FamilyClass Help-->
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_CHARACTER_COMMON_TRAITS</zType>
-    <Translation>Общие признаки: </Translation>
+    <Translation>Общие черты: </Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_WE_GOVERN_OUR_CITIES</zType>
@@ -3104,11 +3100,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_MOST_CITIES</zType>
-    <Translation>Большинство городов: {0_value}</Translation>
+    <Translation>Наибольшее число городов: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LEAST_CITIES</zType>
-    <Translation>Меньшинство городов: {0_value}</Translation>
+    <Translation>Наименьшее число городов: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_NO_RELIGION</zType>
@@ -3116,7 +3112,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_NOT_CONNECTED</zType>
-    <Translation>Города не связаны дорогой: {0_value}</Translation>
+    <Translation>Города не связаны со столицей: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_DAMAGED_CITIES</zType>
@@ -3132,11 +3128,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_UNITS_IN_TERRITORY</zType>
-    <Translation>Наши юниты на территории: {0_value}</Translation>
+    <Translation>Наши отряды на территории: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_HOSTILE_UNITS_IN_TERRITORY</zType>
-    <Translation>Вражеские юниты на территории: {0_value}</Translation>
+    <Translation>Вражеские отряды на территории: {0_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_LUXURIES</zType>
@@ -3148,7 +3144,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_STATE_RELIGION_THEOLOGY</zType>
-    <Translation>У местной религии есть {0_theology}: {1_value}</Translation>
+    <Translation>У государственной религии есть {0_theology}: {1_value}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CLASS_OPINION_CITY_THEOLOGY</zType>
@@ -3241,7 +3237,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CITY_SELECTION_GOVERNOR</zType>
-    <Translation>Губернатор</Translation>
+    <Translation>Губернатор~Губернатора~Губернатору~Губернатора~Губернатором~Губернаторе</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_CITY_SELECTION_FAMILY_OPINION</zType>
@@ -3295,7 +3291,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_UNIT</zType>
-    <Translation>{0_unit} (Юнит)</Translation>
+    <Translation>{0_unit} (отряд)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_IMPROVEMENT_CLASS</zType>
@@ -3320,7 +3316,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_STARTS_AMBITION</zType>
-    <Translation>Создает намерение {0_goalLink}</Translation>
+    <Translation>Создает амбицию {0_goalLink}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_END_ALLIANCE</zType>
@@ -3328,7 +3324,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_STATE_RELIGION</zType>
-    <Translation>Объявить {0,3_religion} местной религией</Translation>
+    <Translation>Объявить {0,3_religion} государственной религией</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_SPREAD_RELIGION</zType>
@@ -3368,7 +3364,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_CHANGE_DIPLOMACY</zType>
-    <Translation>Объявить {0,3_religion} местной религией</Translation>
+    <Translation>Объявить {0,3_religion} государственной религией</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_FREE_BUILD</zType>
@@ -3388,11 +3384,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_MAKE_COUNCIL</zType>
-    <Translation>Сделать советником {0_council}</Translation>
+    <Translation>Назначить: {0_council}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_LEAVE_COUNCIL</zType>
-    <Translation>Снять с поста {0_council}</Translation>
+    <Translation>Снять с поста: {0_council}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_LEAVE_COUNCIL_GENERIC</zType>
@@ -3416,7 +3412,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_LEAVE_UNIT_GENERIC</zType>
-    <Translation>Покинуть юнит</Translation>
+    <Translation>Покинуть отряд</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_CHANGE_SUCCESSION_GENERIC</zType>
@@ -3448,7 +3444,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_FREE_UNIT</zType>
-    <Translation><![CDATA[Получить {0,3_unit}<true_1> (x{1_number})<false><end><true_2> в {2,4_city}<false><end>]]></Translation>
+    <Translation><![CDATA[Появляется {0_unit}<true_1> (x{1_number})<false><end><true_2> в {2,4_city}<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_TRADE_CITY</zType>
@@ -3456,11 +3452,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_JOIN_COURTIER</zType>
-    <Translation>Придворный {0_join}: {1_courtier}</Translation>
+    <Translation>{0_join}: {1_courtier}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_MAKE_COURTIER</zType>
-    <Translation>Сделать придворным: {0_courtier}</Translation>
+    <Translation>Пригласить ко двору: {0_courtier}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_START_LAW</zType>
@@ -3472,7 +3468,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_FREE_LAW</zType>
-    <Translation>Освободить закон: {0_law}</Translation>
+    <Translation>Принять закон: {0_law}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_REPLACES_LAW</zType>
@@ -3480,7 +3476,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_ADOPT_RELIGION</zType>
-    <Translation>Объявляет {0,3_religion} ({1_cost}) местной религией</Translation>
+    <Translation>Объявляет {0,3_religion} ({1_cost}) государственной религией</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_FREE_THEOLOGY</zType>
@@ -3492,7 +3488,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_STATE_RELIGION_END</zType>
-    <Translation><![CDATA[Отказаться от местной религии<true_0> ({0_religion})<false><end>]]></Translation>
+    <Translation><![CDATA[Отказаться от государственной религии<true_0> ({0_religion})<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_BONUS_RANODM_TECH</zType>
@@ -3538,7 +3534,7 @@
   <!--Trait Help-->
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_TITLE</zType>
-    <Translation>{0_trait} (признак)</Translation>
+    <Translation>{0_trait} (особая черта)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_LEADER_MISSION</zType>
@@ -3578,27 +3574,27 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_JOB_PREREQ</zType>
-    <Translation>Может служить {0,4_list}</Translation>
+    <Translation>Может служить {0,5_list}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_DEATH_CHANCE</zType>
-    <Translation>{0_value}% - шанс смерти</Translation>
+    <Translation>{0_value}% шанс смерти</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_OPINION</zType>
-    <Translation>{0_value} - мнение правителя</Translation>
+    <Translation>{0_value} мнение правителя</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_OPINION_FAMILY</zType>
-    <Translation>{0_value} - мнение семьи</Translation>
+    <Translation>{0_value} мнение семьи</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_BIRTH_CHANCE</zType>
-    <Translation>{0_value}% - шанс завести ребенка</Translation>
+    <Translation>{0_value}% шанс завести ребенка</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_CHANCE</zType>
-    <Translation>{0_value}% - шанс {1,1_trait}</Translation>
+    <Translation>{0_value}% шанс стать {1,5_trait}</Translation>
   </Entry>
   <!--Player Help-->
   <Entry>
@@ -3658,12 +3654,12 @@
     <Translation>{0_opinion}: Старая неприязнь к {1,2_nation}</Translation>
   </Entry>
   <Entry>
-    <zType>TEXT_HELPTEXT_PLAYER_OPINION_LUXURIES</zType>
+    <zType>TEXT_HELPTEXT_OPINION_LUXURIES</zType>
     <Translation>{0_opinion}: наши редкие ресурсы</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_PLAYER_OPINION_STATE_RELIGION</zType>
-    <Translation>{0_opinion}: наши местные религии</Translation>
+    <Translation>{0_opinion}: наша религия - государственная</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_PLAYER_OPINION_STRENGTH</zType>
@@ -3716,15 +3712,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_FROM_OUR</zType>
-    <Translation>{0_value}: от нашего {1,3}</Translation>
+    <Translation>{0_value}: от нашей {1,1}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_FROM_THEIR</zType>
-    <Translation>{0_value}: от их {1,3}</Translation>
+    <Translation>{0_value}: от их {1,1}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_CLOSE</zType>
-    <Translation>{0_value}: наши города близки</Translation>
+    <Translation>{0_value}: наши города рядом</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_DISTANT</zType>
@@ -3780,7 +3776,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_STATE_RELIGION</zType>
-    <Translation>{0_value}: наша местная религия ({1_religionLink})</Translation>
+    <Translation>{0_value}: наша государственная религия ({1_religionLink})</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_ADOPT_RELIGION</zType>
@@ -3788,7 +3784,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_STATE_THEOLOGY</zType>
-    <Translation>{0_value}: теология нашей местной религии ({1_theologyLink})</Translation>
+    <Translation>{0_value}: теология нашей государственной религии ({1_theologyLink})</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_THEOLOGY</zType>
@@ -3816,11 +3812,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_MOST_CITIES</zType>
-    <Translation>{0_value}: большинство городов</Translation>
+    <Translation>{0_value}: наибольшее число городов</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_FEWEST_CITIES</zType>
-    <Translation>{0_value}: меньшинство городов</Translation>
+    <Translation>{0_value}: наименьшее число городов</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_NO_RELIGION</zType>
@@ -3828,7 +3824,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_NOT_CONNECTED</zType>
-    <Translation>{0_value}: города не связаны дорогой</Translation>
+    <Translation>{0_value}: города не связаны со столицей</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_CITIES_DAMAGED</zType>
@@ -3844,11 +3840,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_UNITS_IN_TERRITORY</zType>
-    <Translation>{0_value}: наши юниты на нашей территории</Translation>
+    <Translation>{0_value}: наши отряды на нашей территории</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_FAMILY_HOSTILE_UNITS_IN_TERRITORY</zType>
-    <Translation>{0_value}: вражеские юниты на нашей территории</Translation>
+    <Translation>{0_value}: вражеские отряды на нашей территории</Translation>
   </Entry>
   <!--Decision Name-->
   <Entry>
@@ -3857,7 +3853,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_DECISION_NAME_CHOOSE_AMBITION</zType>
-    <Translation>Выбрать намерение</Translation>
+    <Translation>Выбрать амбицию</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_DECISION_NAME_CITY_FAMILY</zType>
@@ -3890,7 +3886,7 @@
   <!--Tile Buttons-->
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_HARVEST_RESOURCE_BUTTON</zType>
-    <Translation><![CDATA[Собирать {0,3_resource}<true_1> (Авто)<false><end>]]></Translation>
+    <Translation><![CDATA[Собрать {0,3_resource}<true_1> (Авто)<false><end>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_HEAL_BUTTON</zType>
@@ -3958,7 +3954,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_SEAT_BUTTON</zType>
-    <Translation><![CDATA[Гнездо семьи {0_familyName}]]></Translation>
+    <Translation><![CDATA[Оплот семьи {0_familyName}]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_FOUND_FAMILY_CITY_BUTTON</zType>
@@ -3974,11 +3970,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_ADD_GENERAL_BUTTON</zType>
-    <Translation>Добавить генерала</Translation>
+    <Translation>Назначить генерала</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_RELEASE_GENERAL_BUTTON</zType>
-    <Translation>Освободить генерала</Translation>
+    <Translation>Отстранить генерала</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_TILE_GIFT_TO_PLAYER_BUTTON</zType>
@@ -4035,7 +4031,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_RELIGION_STATE_HEADER</zType>
-    <Translation>Местная религия</Translation>
+    <Translation>Государственная религия</Translation>
   </Entry>
   <!--POPUPS-->
   <Entry>
@@ -4128,7 +4124,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_CANCEL_BUILD_PROMPT_TITLE</zType>
-    <Translation>Потерять {0_build} прогресс?</Translation>
+    <Translation>Потерять прогресс {0,1_build}?</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_CANCEL_IMPROVEMENT_PROMPT_TITLE</zType>
@@ -4136,7 +4132,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_BARBARIAN_DESC</zType>
-    <Translation>Объявить войну {0.2_barbarians}?</Translation>
+    <Translation>Объявить войну {0,2_barbarians}?</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_DECLARE_WAR_TEAM_DESC</zType>
@@ -4154,7 +4150,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_TITLE</zType>
-    <Translation>Пришло время выбрать следующее намерение...</Translation>
+    <Translation>Пришло время выбрать следующую амбицию...</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_HELPTEXT_POPUP_DECISION_CITY_FAMILY_TITLE</zType>
