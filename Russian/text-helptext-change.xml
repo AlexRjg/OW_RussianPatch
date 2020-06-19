@@ -417,129 +417,111 @@
     <Translation>Отряды</Translation>
   </Entry>
   <!--Event Prereqs-->
-  <Entry>
-    <zType>TEXT_DEBUG_STAR</zType>
-    <Translation><![CDATA[{0}<true_1>*<false><end>]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES</zType>
-    <Translation>[Требует {0}]</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO</zType>
-    <Translation>[Не требует {0}]</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_X</zType>
-    <Translation>[Требует {0}: {1}]</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_TWO</zType>
-    <Translation>[Требует {0}: {1} {2}]</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT</zType>
-    <Translation><![CDATA[[Требует {0}: >= {1} и <= {2}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT</zType>
-    <Translation><![CDATA[[Требует {0}: >= {1}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT</zType>
-    <Translation><![CDATA[[Требует {0}: <= {1}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO</zType>
-    <Translation><![CDATA[[Требует {0}: >= {1} {2}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO</zType>
-    <Translation><![CDATA[[Требует {0}: <= {1} {2}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_NOT</zType>
-    <Translation><![CDATA[[Требует {0}: Не {1}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
-    <Translation><![CDATA[[Требует возраст {0,1}: >= {1} и <= {2}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_GT</zType>
-    <Translation><![CDATA[[Требует возраст {0,1}: >= {1}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_LT</zType>
-    <Translation><![CDATA[[Требует возраст {0,1}: <= {1}]]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_MARRIED</zType>
-    <Translation>В браке</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_SINGLE</zType>
-    <Translation>Не в браке</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_COOLDOWN</zType>
-    <Translation><![CDATA[<true_0>Восстановление: <false><end>{1_turns}]]></Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_COOLDOWN_NAME</zType>
-    <Translation>Восстановление: {0_name} ({1_turns})</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_COOLDOWN_WARNING</zType>
-    <Translation>Восстановление {0,1_name}: {1_turns}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_CAN_ACT_CONSUMES</zType>
-    <Translation>Содержание: {0_yield}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_CAN_ACT_OTHER_TURN</zType>
-    <Translation>Нельзя использовать во время хода другой команды ({0})</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_HURRY_WARNING_CANNOT_HURRY</zType>
-    <Translation>Нельзя ускорить {0}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_HURRY_WARNING_REQUIRES</zType>
-    <Translation>Требует {0} {1}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_HURRY_WARNING_CITY_DAMAGED</zType>
-    <Translation>Нельзя ускорить, если город поврежден</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_HURRY_WARNING_CITY_EFFECT</zType>
-    <Translation>Нельзя ускорить из-за {0,1}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_HURRY_WARNING_INCREASES_COST</zType>
-    <Translation>Увеличивает будущую стоимость этого действия в городе</Translation>
-  </Entry>
-  <!--City Money Summary Text-->
-  <Entry>
-    <zType>TEXT_HELPTEXT_CITY_MONEY_SUMMARY_TEXT</zType>
-    <Translation><![CDATA[{0_moneyGain} (Доход)<br>-{1_moneyLoss} (Содержание)<br>= {2_yield} (Итого)]]></Translation>
-  </Entry>
-  <!---->
-  <Entry>
-    <zType>TEXT_HELPTEXT_YIELD_COST</zType>
-    <Translation>Стоимость: {0_list}</Translation>
-  </Entry>
-  <!--City Queue Progress-->
-  <Entry>
-    <zType>TEXT_HELPTEXT_CITY_QUEUE_PROGRESS</zType>
-    <Translation>{0_value}/{1_value} {2,1_yield}</Translation>
-  </Entry>
-  <Entry>
-    <zType>TEXT_HELPTEXT_CITY_QUEUE_PROGRESS_PARENTHESIS</zType>
-    <Translation>({0_value}/{1_value} {2,1_yield})</Translation>
-  </Entry>
+ <Entry>
+		<zType>TEXT_DEBUG_STAR</zType>
+		<English><![CDATA[{0}<true_1>*<false><end>]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES</zType>
+		<English>[Requires {0}]</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NO</zType>
+		<English>[Requires No {0}]</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_X</zType>
+		<English>[Requires {0}: {1}]</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_TWO</zType>
+		<English>[Requires {0}: {1} {2}]</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT</zType>
+		<English><![CDATA[[Requires {0}: >= {1} and <= {2}]]]>
+		</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT</zType>
+		<English><![CDATA[[Requires {0}: >= {1}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT</zType>
+		<English><![CDATA[[Requires {0}: <= {1}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO</zType>
+		<English><![CDATA[[Requires {0}: >= {1} {2}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO</zType>
+		<English><![CDATA[[Requires {0}: <= {1} {2}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_NOT</zType>
+		<English><![CDATA[[Requires {0}: Not {1}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE</zType>
+		<English><![CDATA[[Requires {0} Age: >= {1} and <= {2}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_GT</zType>
+		<English><![CDATA[[Requires {0} Age: >= {1}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIRES_AGE_LT</zType>
+		<English><![CDATA[[Requires {0} Age: <= {1}]]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_MARRIED</zType>
+		<English>Married</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_EVENT_REQUIREMENT_SINGLE</zType>
+		<English>Single</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_COOLDOWN</zType>
+		<English><![CDATA[<true_0>Cooldown: <false><end>{1_turns}]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_COOLDOWN_NAME</zType>
+		<English>Cooldown: {0_name} ({1_turns})</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_COOLDOWN_WARNING</zType>
+		<English>On {0_name} Cooldown: {1_turns}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CAN_ACT_CONSUMES</zType>
+		<English>Consumes {0_yield}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_CAN_ACT_OTHER_TURN</zType>
+		<English>Cannot use during other Team's Turn ({0})</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_WARNING_CANNOT_HURRY</zType>
+		<English>Cannot Hurry {0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_WARNING_REQUIRES</zType>
+		<English>Requires {0} {1}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_WARNING_CITY_DAMAGED</zType>
+		<English>Cannot Hurry if City is Damaged</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_WARNING_CITY_EFFECT</zType>
+		<English>Cannot Hurry because of {0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_HELPTEXT_HURRY_WARNING_INCREASES_COST</zType>
+		<English>Increases the future cost of this action in the city</English>
+	</Entry>
   <!--Turns Text-->
   <Entry>
     <zType>TEXT_HELPTEXT_TURNS_TEXT</zType>
